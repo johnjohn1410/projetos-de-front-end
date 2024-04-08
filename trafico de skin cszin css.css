@@ -1,0 +1,102 @@
+h1 {
+    color: teal;
+    text-align: center;
+    text-decoration: white underline;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2 {
+    color: teal;
+    font-family: "Copperplate Gothic Light";
+    font-size: 23px;
+    font-style: normal;
+}
+h2::first-letter{
+    font-size: 30px ;
+    color:white;
+}
+
+h5 {
+    color: teal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h5 a{
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+nav {
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+    font-size: 40px;
+
+}
+
+body {
+    background-color:#22223b ;
+    text-align: justify;
+}
+
+p1 {
+    color: teal;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+p1 a{
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+ul1 {
+    color: #8d99ae;
+    font-weight: 150;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 15px;
+    font-style: normal;
+}
+
+p2, p5 {
+    color: #8d99ae;
+    font-weight: 150;
+
+}
+
+
+p5 a {
+    color:  white;
+    font-weight: 150;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 15px;
+    font-style: normal;
+}
+
+footer a {
+    color: rgb(255, 255, 0);
+    font-size: small;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 15px;
+}
+a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+section>p2 {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 15px;
+    font-style: normal;
+    width: 450px;
+    height: 450px;
+    display: block;
+}
+
+
+::selection{
+    background-color: lime;
+}
+
+img { 
+    width: 240px;
+    height: 150px;
+}
