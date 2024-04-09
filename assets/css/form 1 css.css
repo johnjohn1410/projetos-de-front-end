@@ -1,0 +1,133 @@
+h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+    padding-left: 450px;
+}
+h2 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+#n-reg{
+    color: rgb(0, 0, 0);
+}
+#carteirinha{
+    padding-right: 105px;/*tamanho*/
+}   
+body {
+    background-color: rgb(49, 48, 48)
+}
+a{
+    color: #7f7f83;
+    transition: 0.5s ease;
+}
+a:hover{
+    color: #dfdfe0;
+}
+a:active{
+    color: black;
+}
+textarea{
+    resize: none;
+}
+
+button {
+    color: aliceblue;
+    background-color: #1a2022;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+    border-radius: 90px;
+    border-color: #555558;
+    border-style: outset;
+    border-width: 3px;
+    cursor: pointer;
+}
+/*borda customizada parte por parte*/
+
+input{    
+    border-radius: 150px;
+    border: 2px solid #7f7f83;
+    cursor: pointer;
+}
+
+.Preferências{
+    line-height: 25px;
+}
+.Preferências > label{
+    gap: 100px;
+    cursor: pointer;
+}
+.button.test{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*borda customizada em uma linha --> tamanho | estilo | cor*/
+
+button:hover{
+    color:black;
+    background-color: white;
+    transition: ease, 0.5s;
+}
+button:active{
+    color: white;
+    background-color: white;
+}
+#Registrar:hover{
+    color:#1a2022;
+    background-color: white;
+}
+#Registrar:active{
+    color:white;
+    background-color: white;
+}
+
+
+#reclamação1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Conta {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+#pesquisas {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+input + button{
+    color:white;
+    background-color: #1a2022;
+
+}
+input + button:hover{
+    color:#1a2022;
+    background-color: white;
+
+}
+
+form > h3{
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif
+}
+
+label{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+/* há uma prorpiedade chamada "box-sizing: border-box" que sobrepõe a borda ao item, ao invés de colocar em volta
+padding envolve a posição do objeto, sendo afetado pela borda definida, afetando também o tamanho do objeto
+margin eh parecido com padding, mas não é afetado por bordas e etc*/
